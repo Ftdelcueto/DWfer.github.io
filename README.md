@@ -33,7 +33,7 @@ background-color:#CCC;
 <body>
 <div class="caja">
 <a href="Tarjetadeperfil.html" class="caja caja1">Actividad 1</a>
-<a href="Articulos.html" class="caja caja2">Actividad 2</a>
+<a href="Articulo.html" class="caja caja2">Actividad 2</a>
 <a href="Cajas.html" class="caja caja3">Actividad 3</a>
 </div>
 </body>
