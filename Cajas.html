@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contenedor de cajas</title>
+<style>
+
+.contenedor {
+width:50%;
+padding:20px; 
+border:2px solid gray; 
+box-shadow:0px 4px 8px rgba(0,0,0,0.1);
+margin:0 auto; 
+display:grid;
+grid-template-columns:repeat(2, 1fr);
+}
+ 
+.caja {
+width:95%;
+height:150px; 
+padding:10px; 
+margin:10px; 
+border:1px solid #ccc; 
+text-align: center; 
+line-height:150px; 
+}
+
+.caja1 {
+background-color:#7DD8DE; 
+}
+.caja2 {
+background-color:#21C7E9; 
+}
+.caja3 {
+background-color:#3c7783; 
+}
+.caja4 {
+background-color:#8FD8E7; 
+}
+</style>
+</head>
+<body>
+<div class="contenedor">
+<div class ="caja caja1">caja 1</div>
+<div class="caja caja2">caja 2 </div>
+<div class="caja caja3"> caja 3</div>
+<div class="caja caja4">caja 4 </div>
+</div>
+</body>
+</html>
+
+
